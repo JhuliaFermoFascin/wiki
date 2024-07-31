@@ -1,0 +1,206 @@
+.logo{
+    background-image: url('assets/img/background/logoBackgound.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgLogo1{
+    padding-top: 6rem;
+    width: 50rem;
+    transition: transform 0.5s ease;
+}
+.imgLogo1:hover{
+    transform: rotate(-15deg);
+}
+.imgLogo2{
+    margin-top:-4rem;
+    padding-bottom: 6rem;
+    width: 30rem;
+    transition: transform 0.5s ease;
+}
+.imgLogo2:hover{
+    transform: rotate(30deg);
+}
+.imgLogo3{
+    width:9rem;
+}
+.imgCavalo{
+    width:20rem;
+    transition: transform 0.5s ease;
+}
+.imgCavalo:hover{
+    transform: rotate(-30deg);
+}
+.apresentacao{
+    background-image: url('assets/img/background/gradianteBackground.png');
+    background-size: cover;
+}
+.menu{
+    background-image: url('assets/img/background/menuBackground.png');
+    background-size: cover;
+    padding-left:5rem;
+    padding-right:4.5rem;
+    padding-top:12rem;
+    padding-bottom:10rem;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 2rem;
+    padding-left: 5rem;
+}
+nav a{
+    color:#D69554;
+    font-size: 20px;
+}
+nav a:hover{
+    color:#E6BD94;
+    font-size: 19.6px;
+    font-weight: 500;
+}
+nav{
+    justify-content: space-around;
+    display:flex;
+    width:100%;
+    padding-top: 1.6rem;
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    color:#AF5F0E;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5rem;
+}
+
+.sandy{
+    background-image:  url('assets/img/itensMenu/Sandy_Happy.png');
+    background-size: cover;
+}
+
+.anel{
+    background-image:  url('assets/img/itensMenu/Elvish_Jewelry.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.diamante{
+    background-image:  url('assets/img/itensMenu/Diamond.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.galinha{
+    background-image:  url('assets/img/itensMenu/Blue_Chicken.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.melaoPoeiro{
+    background-image:  url('assets/img/itensMenu/Giant_Powdermelon.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    padding: 6rem;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0px;
+}
+
+h6{
+    font-size: 27px;
+    margin: 0px;
+}
+
+button{
+    position: relative; 
+    cursor: pointer;
+    background-color: #000079;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+    color:#000079;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    padding: 5rem;
+    background-color: #000079;
+    text-align: center;
+}
+
+footer a{
+    color:#D69554;
+    font-size: 18px;
+    margin:0px;
+}
+
+footer a:hover{
+    color:#E6BD94;
+    font-weight: 500;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#D69554;
+    padding-top:0px;
+}
+
+footer p a{
+font-size: 16px;
+}
+
+span{
+    position: relative;
+    color: #dfad7c;
+    font-size: 20px;
+    font-weight: 600;
+    visibility:hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+button:hover span{
+    visibility: visible;
+}
+
+button:hover .filter{
+    background-color: #3131aa93; 
+    backdrop-filter: blur(10px); 
+}
+button .filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}

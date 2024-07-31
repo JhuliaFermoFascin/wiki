@@ -1,0 +1,9 @@
+body{
+    background-image: url('../../../assets/img/logoBackgound.png');
+    background-size: cover;
+    filter: blur(10px);
+    opacity: 0.5; 
+}
+p{
+    color:blue;
+}
