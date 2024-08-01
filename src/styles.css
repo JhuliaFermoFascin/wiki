@@ -1,92 +1,70 @@
-.logo{
-    background-image: url('assets/img/background/logoBackgound.png');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .imgLogo1{
-    padding-top: 6rem;
-    width: 50rem;
+    padding-top: 7%;
+    width: 50%;
     transition: transform 0.5s ease;
-}
-.imgLogo1:hover{
-    transform: rotate(-15deg);
 }
 .imgLogo2{
-    margin-top:-4rem;
-    padding-bottom: 6rem;
-    width: 30rem;
+    margin-top:-4%;
+    padding-bottom: 7%;
+    width: 31%;
     transition: transform 0.5s ease;
-}
-.imgLogo2:hover{
-    transform: rotate(30deg);
 }
 .imgLogo3{
-    width:9rem;
+    width:10%;
 }
 .imgCavalo{
-    width:20rem;
+    height: 130%;
     transition: transform 0.5s ease;
 }
-.imgCavalo:hover{
-    transform: rotate(-30deg);
-}
-.apresentacao{
-    background-image: url('assets/img/background/gradianteBackground.png');
-    background-size: cover;
-}
-.menu{
-    background-image: url('assets/img/background/menuBackground.png');
-    background-size: cover;
-    padding-left:5rem;
-    padding-right:4.5rem;
-    padding-top:12rem;
-    padding-bottom:10rem;
-    display: flex;
-    justify-content: space-around;
-}
-body{
-    margin: 0;
-}
-header{
-    display: flex;
-    padding: 2rem;
-    padding-left: 5rem;
-}
-nav a{
-    color:#D69554;
-    font-size: 20px;
-}
-nav a:hover{
-    color:#E6BD94;
-    font-size: 19.6px;
-    font-weight: 500;
-}
-nav{
-    justify-content: space-around;
-    display:flex;
-    width:100%;
-    padding-top: 1.6rem;
-}
-a{
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-}
-
 .titulo{
     display: flex;
     flex-direction: column;
     color:#AF5F0E;
     font-family: "Poppins", sans-serif;
-    padding-top: 5rem;
+    padding-top: 3%;
 }
-
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuLogo{
+    background-image: url('assets/img/background/logoBackgound.png');
+    background-size: cover;
+}
+.apresentacao{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,121,1) 100%);
+}
+.menu{
+    background-image: url('assets/img/background/menuBackground.png');
+    background-size: cover;
+    padding-left:5%;
+    padding-right:4.5%;
+    padding-top:13%;
+    padding-bottom:10%;
+    display: flex;
+    justify-content: space-around;
+}
+.secao1{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.secao2{
+    width: 18.5%;
+    display: flex;
+    justify-content: center;
+}
+.secao3{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
 .sandy{
     background-image:  url('assets/img/itensMenu/Sandy_Happy.png');
     background-size: cover;
 }
-
 .anel{
     background-image:  url('assets/img/itensMenu/Elvish_Jewelry.png');
     background-size: 60%;
@@ -98,6 +76,7 @@ a{
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
+    width: 85%;
 }
 .galinha{
     background-image:  url('assets/img/itensMenu/Blue_Chicken.png');
@@ -111,90 +90,52 @@ a{
     background-position: 50%;
     background-repeat: no-repeat;
 }
+.botaoMenu{
+    visibility: hidden;
+    width:0px;
+    height:0px;
+    position: fixed;
+}
 
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    padding: 2%;
+    padding-left: 5%;
+}
+nav a{
+    color:#D69554;
+    font-size: 120%;
+}
+nav{
+    justify-content: space-around;
+    display:flex;
+    width:100%;
+    padding-top: 2%;
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
 section{
     display:flex;
     flex-direction: row;
-    padding: 6rem;
-    justify-content: space-around;
+    padding: 10%;
+    justify-content:space-between;
 }
-
-h1{
-    font-size: 50px;
-    margin: 0px;
-}
-
-h6{
-    font-size: 27px;
-    margin: 0px;
-}
-
 button{
     position: relative; 
     cursor: pointer;
     background-color: #000079;
-    width: 13rem;
+    width: 40%;
     height: 13rem;
-    border-radius: 30px;
+    border-radius: 15%;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-p{
-    padding-top: 3rem;
-    text-align: center;
-    font-size: 20px;
-    color:#000079;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-}
-
-footer{
-    padding: 5rem;
-    background-color: #000079;
-    text-align: center;
-}
-
-footer a{
-    color:#D69554;
-    font-size: 18px;
-    margin:0px;
-}
-
-footer a:hover{
-    color:#E6BD94;
-    font-weight: 500;
-}
-
-footer p{
-    font-weight: 400;
-    font-size: 16px;
-    color:#D69554;
-    padding-top:0px;
-}
-
-footer p a{
-font-size: 16px;
-}
-
-span{
-    position: relative;
-    color: #dfad7c;
-    font-size: 20px;
-    font-weight: 600;
-    visibility:hidden;
-    font-family: "Poppins", sans-serif;
-}
-
-button:hover span{
-    visibility: visible;
-}
-
-button:hover .filter{
-    background-color: #3131aa93; 
-    backdrop-filter: blur(10px); 
 }
 button .filter{
     position: absolute;
@@ -202,5 +143,195 @@ button .filter{
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 15%;
+}
+p{
+    padding-top: 6%;
+    text-align: center;
+    font-size: 120%;
+    color:#000079;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-size: 300%;
+    margin: 0px;
+}
+h6{
+    font-size: 170%;
+    margin: 0px;
+}
+span{
+    position: relative;
+    color: #dfad7c;
+    font-size: 120%;
+    font-weight: 600;
+    visibility:hidden;
+    font-family: "Poppins", sans-serif;
+}
+footer{
+    padding: 5%;
+    background-color: #000079;
+    text-align: center;
+}
+footer a{
+    color:#D69554;
+    font-size: 110%;
+    margin:0px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 95%;
+    color:#D69554;
+    padding-top:0px;
+}
+footer p a{
+    font-size: 97%;
+}
+
+.imgLogo1:hover{
+    transform: rotate(-15deg);
+}
+.imgLogo2:hover{
+    transform: rotate(30deg);
+}
+.imgCavalo:hover{
+    transform: rotate(-30deg);
+}
+button:hover span{
+    visibility: visible;
+}
+button:hover .filter{
+    background-color: #3131aa93; 
+    backdrop-filter: blur(10px); 
+}
+nav a:hover{
+    color:#E6BD94;
+    font-size: 117%;
+    font-weight: 500;
+}
+footer a:hover{
+    color:#E6BD94;
+    font-weight: 500;
+}
+
+/*(min-width: 900px) and */
+@media (max-width: 1070px){
+    section{
+        padding:7%;
+        padding-top:15%;
+        padding-bottom:20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgLogo1{
+        width: 53%;
+        padding-top: 45%;
+    }
+    .imgLogo2{
+        padding-top: 1%;
+        width:33%;
+        padding-bottom: 40%;
+    }
+    .menuLogo{
+        background-image: url('assets/img/background/logobackGroundTablet.png');
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+    .menu{
+        background-image: url('assets/img/background/menuBackgroundTablet.png');
+        display: block;
+        flex-direction: none;
+        justify-content: none;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    button{
+        width: 25%;
+        height: 16rem;
+    }
+    .secao1{
+        width: 100%;
+        display: flex;
+        align-items: space-between;
+        margin-top: 6%;
+    }
+    .secao2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .secao2 button{
+        width: 25%;
+        height: 16rem;
+    }
+    .secao3{
+        width: 100%;
+        display: flex;
+        align-items: space-between;
+    }
+    .titulo{
+        padding-top: 2%;
+        text-align: center;
+    }
+    .imgCavalo{
+        width: 300%;
+        margin-left: -80%;
+        padding-bottom: 40%;
+        
+    }
+    .botaoMenu{
+        visibility: visible;
+        width:3rem;
+        height: 3rem;
+        border-radius: 0%;
+        background-image: url('assets/img/iconeMenu.png');
+        background-size: 80%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-color:#af5e0e00;
+    }
+    header{
+        visibility: hidden;
+    }
+}
+    /*até 320px*/
+@media (max-width: 600px){
+    button{
+        height: 8rem;
+        width: 23%;
+        margin:0.5%;
+    }
+    .secao2 button{
+        height: 8rem;
+        width: 23%;
+    }
+    .sandy{
+        margin-top: 0%;
+    }
+    .melaoPoeiro{
+        margin-bottom: 0%;
+    }
+    .secao1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secao3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        padding-top:1%;
+        background-image: url('assets/img/background/menuBackgroundCelular.png');
+    }   
+    .imgCavalo{
+        width: 190%;
+        padding-left: 50%;
+    }
+    h1{
+        font-size: 150%;
+    }
+    h6{
+        font-size: 120%;
+    }
 }
