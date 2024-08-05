@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Personagens - Stardew Valley Wiki 2.0" content="Informações sobre os NPC's do Stardew Valley."/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"/>
+    <script src="personagens.js"></script>
+
+    <title>Personagens - Stardew Valley Wiki 2.0</title>
+    <link rel="icon" type="image/png" href="../../../favicon.png" />
+    <link rel="stylesheet" href="personagens.css" />
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../../../index.html">
+            <img src="../../../assets/img/logo/logo3.png" alt="Logo Stardew Wiki" class="imgLogo3"/>
+        </a>
+        <a href="" class="navegacao">PERSONAGENS</a>
+        <a href="" id="linkArtefatos" class="navegacao">ARTEFATOS</a>
+        <a href="" id="linkMinerais" class="navegacao">MINERAIS</a>
+        <a href="" id="linkAnimais" class="navegacao">ANIMAIS</a>
+        <a href="" id="linkLavouras" class="navegacao">LAVOURAS</a>
+      </nav>
+    </header>
+    <div class="diretorio">
+        <p><a href="../../../index.html">Home </a></p> 
+        <p> > <a href="">Personagens</a></p>
+    </div>
+    <section class="principal">
+        <div class="pesquisas">
+            <label for="Ordenar">Ordenar por:
+                <select id="ordenados">
+                    <option value="ascendente">A-Z</option>
+                    <option value="descrescente">Z-A</option>
+                    <option value="MaiorRelevancia">Maior relevância</option>
+                    <option value="MenorRelevacia">Menor Relevacia</option>
+                </select>
+            </label>
+            <input type="text" id="searchInput" class="search-input" placeholder="Digite o nome do NPC">
+            <span class="icon">🔍</span>
+        </div>
+        <div class="personagens">
+            <button id="Alex">
+                <div class="filter"></div>
+                <span>ALEX</span>
+            </button>
+            <button id="Elliot">
+                <div class="filter"></div>
+                <span>ELLIOT</span>
+            </button>
+            <button id="Harvey">
+                <div class="filter"></div>
+                <span>HARVEY</span>
+            </button>
+            <button id="Sam">
+                <div class="filter"></div>
+                <span>SAM</span>
+            </button>
+            <button id="Sebastian">
+                <div class="filter"></div>
+                <span>SEBASTIAN</span>
+            </button>
+            <button id="Shane">
+                <div class="filter"></div>
+                <span>SHANE</span>
+            </button>
+            <button id="Abigail">
+                <div class="filter"></div>
+                <span>ABIGAIL</span>
+            </button>
+            <button id="Emily">
+                <div class="filter"></div>
+                <span>EMILY</span>
+            </button>
+            <button id="Haley">
+                <div class="filter"></div>
+                <span>HAILEY</span>
+            </button>
+            <button id="Leah">
+                <div class="filter"></div>
+                <span>LEAH</span>
+            </button>
+            <button id="Maru">
+                <div class="filter"></div>
+                <span>MARU</span>
+            </button>
+            <button id="Penny">
+                <div class="filter"></div>
+                <span>PENNY</span>
+            </button>
+            <button id="Anao">
+                <div class="filter"></div>
+                <span>ANÃO</span>
+            </button>
+            <button id="Caroline">
+                <div class="filter"></div>
+                <span>CAROLINE</span>
+            </button>
+            <button id="Clint">
+                <div class="filter"></div>
+                <span>CLINT</span>
+            </button>
+            <button id="Demetrius">
+                <div class="filter"></div>
+                <span>DEMETRIUS</span>
+            </button>
+            <button id="Evelyn">
+                <div class="filter"></div>
+                <span>EVELYN</span>
+            </button>
+            <button id="Feiticeiro">
+                <div class="filter"></div>
+                <span>FEITICEIRO</span>
+            </button>
+            <button id="George">
+                <div class="filter"></div>
+                <span>GEORGE</span>
+            </button>
+            <button id="Gus">
+                <div class="filter"></div>
+                <span>GUS</span>
+            </button>
+            <button id="Jas">
+                <div class="filter"></div>
+                <span>JAS</span>
+            </button>
+            <button id="Kent">
+                <div class="filter"></div>
+                <span>KENT</span>
+            </button>
+            <button id="Krobus">
+                <div class="filter"></div>
+                <span>KROBUS</span>
+            </button>
+            <button id="Leo">
+                <div class="filter"></div>
+                <span>LEO</span>
+            </button>
+            <button id="Lewis">
+                <div class="filter"></div>
+                <span>LEWIS</span>
+            </button>
+            <button id="Linus">
+                <div class="filter"></div>
+                <span>LINUS</span>
+            </button>
+            <button id="Marnie">
+                <div class="filter"></div>
+                <span>MARNIE</span>
+            </button>
+            <button id="Pam">
+                <div class="filter"></div>
+                <span>PAM</span>
+            </button>
+            <button id="Pierre">
+                <div class="filter"></div>
+                <span>PIERRE</span>
+            </button>
+            <button id="Robin">
+                <div class="filter"></div>
+                <span>ROBIN</span>
+            </button>
+            <button id="Sandy">
+                <div class="filter"></div>
+                <span>SANDY</span>
+            </button>
+            <button id="Vincent">
+                <div class="filter"></div>
+                <span>VINCENT</span>
+            </button>
+            <button id="Willy">
+                <div class="filter"></div>
+                <span>WILLY</span>
+            </button>
+            <button id="Ajudante">
+                <div class="filter"></div>
+                <span>AJUDANTE</span>
+            </button>
+            <button id="Avo">
+                <div class="filter"></div>
+                <span>AVÔ</span>
+            </button>
+            <button id="Passarinha">
+                <div class="filter"></div>
+                <span>PASSARINHA</span>
+            </button>
+            <button id="Gil">
+                <div class="filter"></div>
+                <span>GIL</span>
+            </button>
+            <button id="Governador">
+                <div class="filter"></div>
+                <span>GOVERNADOR</span>
+            </button>
+            <button id="Gunther">
+                <div class="filter"></div>
+                <span>GUNTHER</span>
+            </button>
+            <button id="Marlon">
+                <div class="filter"></div>
+                <span>MARLON</span>
+            </button>
+            <button id="Morris">
+                <div class="filter"></div>
+                <span>MORRIS</span>
+            </button>
+            <button id="ProfessorCaracol">
+                <div class="filter"></div>
+                <span>PROFESSOR CARACOL</span>
+            </button>
+            <button id="Seguranca">
+                <div class="filter"></div>
+                <span>SEGURANÇA</span>
+            </button>
+            <button id="SrQi">
+                <div class="filter"></div>
+                <span>Sr. Qi</span>
+            </button>
+        </div>
+    </section>
+    <footer>
+      <a href="../sobreMim/sobreMim.html">Sobre a autora</a>
+      <p>
+        Esta página foi inspirada em outra já existente:
+        <a
+          href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki"
+          target="_blank"
+          >Stardew Wiki</a
+        >
+        .
+      </p>
+    </footer>
+  </body>
+</html>

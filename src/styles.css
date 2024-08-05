@@ -45,52 +45,37 @@
     padding-bottom:10%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-.secao1{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-}
-.secao2{
-    width: 18.5%;
-    display: flex;
-    justify-content: center;
-}
-.secao3{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-}
-.sandy{
+#personagens{
     background-image:  url('assets/img/itensMenu/Sandy_Happy.png');
     background-size: cover;
 }
-.anel{
+#arfetatos{
     background-image:  url('assets/img/itensMenu/Elvish_Jewelry.png');
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.diamante{
+#minerios{
     background-image:  url('assets/img/itensMenu/Diamond.png');
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
-    width: 85%;
 }
-.galinha{
+#animais{
     background-image:  url('assets/img/itensMenu/Blue_Chicken.png');
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.melaoPoeiro{
+#plantacoes{
     background-image:  url('assets/img/itensMenu/Giant_Powdermelon.png');
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.botaoMenu{
+#botaoMenu{
     visibility: hidden;
     width:0px;
     height:0px;
@@ -129,13 +114,14 @@ button{
     position: relative; 
     cursor: pointer;
     background-color: #000079;
-    width: 40%;
+    width: 13rem;
     height: 13rem;
     border-radius: 15%;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1%;
 }
 button .filter{
     position: absolute;
@@ -214,6 +200,13 @@ footer a:hover{
     color:#E6BD94;
     font-weight: 500;
 }
+.imgLogo3{
+    width:8rem;
+    transition: transform 0.5s ease;
+}
+.imgLogo3:hover{
+    transform: rotate(-30deg);
+}
 
 /*(min-width: 900px) and */
 @media (max-width: 1070px){
@@ -240,37 +233,14 @@ footer a:hover{
     }
     .menu{
         background-image: url('assets/img/background/menuBackgroundTablet.png');
-        display: block;
-        flex-direction: none;
-        justify-content: none;
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     button{
-        width: 25%;
-        height: 16rem;
+        width: 11rem;
+        height: 11rem;
     }
-    .secao1{
-        width: 100%;
-        display: flex;
-        align-items: space-between;
-        margin-top: 6%;
-    }
-    .secao2{
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-    .secao2 button{
-        width: 25%;
-        height: 16rem;
-    }
-    .secao3{
-        width: 100%;
-        display: flex;
-        align-items: space-between;
-    }
-    .titulo{
+    .titulo4{
         padding-top: 2%;
         text-align: center;
     }
@@ -280,7 +250,7 @@ footer a:hover{
         padding-bottom: 40%;
         
     }
-    .botaoMenu{
+    #botaoMenu{
         visibility: visible;
         width:3rem;
         height: 3rem;
@@ -299,29 +269,16 @@ footer a:hover{
 @media (max-width: 600px){
     button{
         height: 8rem;
-        width: 23%;
-        margin:0.5%;
+        width: 8rem;
     }
-    .secao2 button{
-        height: 8rem;
-        width: 23%;
-    }
-    .sandy{
+    #personagens{
         margin-top: 0%;
     }
-    .melaoPoeiro{
+    #plantacoes{
         margin-bottom: 0%;
     }
-    .secao1{
-        flex-direction: column;
-        align-items: center;
-    }
-    .secao3{
-        flex-direction: column;
-        align-items: center;
-    }
     .menu{
-        padding-top:1%;
+        padding:3%;
         background-image: url('assets/img/background/menuBackgroundCelular.png');
     }   
     .imgCavalo{
