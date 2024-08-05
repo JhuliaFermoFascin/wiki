@@ -1,0 +1,222 @@
+header{
+    background-color: #000079;
+    padding: 1%;
+}
+nav{
+    justify-content: space-around;
+    display:flex;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+nav .navegacao{
+    color:#D69554;
+    font-size: 120%;
+    padding-top: 1.5%;
+}
+.diretorio{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+}
+.imgLogo3{
+    width:8rem;
+    transition: transform 0.5s ease;
+}
+.jhulia{
+    background-color: #000079;
+    border-radius: 15%;
+    height: 20rem;
+    width: 20rem;
+}
+body{
+    margin:0px;
+}
+nav a:hover{
+    color:#E6BD94;
+    font-size: 117%;
+    font-weight: 500;
+}
+.imgLogo3:hover{
+    transform: rotate(-30deg);
+}
+.principal{
+    padding-left:6%;
+    padding-right: 6%;
+}
+
+footer{
+    padding: 5%;
+    background-color: #000079;
+    text-align: center;
+}
+footer a{
+    color:#D69554;
+    font-size: 110%;
+    margin:0px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 95%;
+    color:#D69554;
+    padding-top:0px;
+    font-family: "Poppins", sans-serif;
+}
+footer p a{
+    font-size: 97%;
+}
+footer a:hover{
+    color:#E6BD94;
+    font-weight: 500;
+}
+p{
+    color:#000079;
+    font-family: "Poppins", sans-serif;
+    font-size: 120%;
+}
+h1{
+    color: #000079;
+    font-family: "Poppins", sans-serif;
+    font-size: 150%;
+}
+h2{
+    color: #000079;
+    font-family: "Poppins", sans-serif;
+    font-size: 120%;
+}
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+.apresentacao2{
+    width: 50%;
+    padding-top: 6%;
+}
+.logo{
+    position: relative; 
+    cursor: pointer;
+    background-color: #000079;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 15%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:1.5%;
+}
+
+.logo .filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+.logo:hover .filter{
+    background-color: #3131aa93; 
+    backdrop-filter: blur(10px); 
+}
+.logo:hover span{
+    visibility: visible;
+    color:rgb(200, 255, 0);
+    z-index:1;
+    position: relative;
+    color: #dfad7c;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.logo span{
+    visibility: hidden;
+}
+#html{
+    background-image: url('../../../assets/img/logo/Freamworks/html.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#scss{
+    background-image: url('../../../assets/img/logo/Freamworks/scss.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#ts{
+    background-image: url('../../../assets/img/logo/Freamworks/ts.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#tailwind{
+    background-image: url('../../../assets/img/logo/Freamworks/tailwind.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#ionic{
+    background-image: url('../../../assets/img/logo/Freamworks/ionic.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#angular{
+    background-image: url('../../../assets/img/logo/Freamworks/angular.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#babylon{
+    background-image: url('../../../assets/img/logo/Freamworks/babylon.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#c{
+    background-image: url('../../../assets/img/logo/Freamworks/c.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#net{
+    background-image: url('../../../assets/img/logo/Freamworks/net.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#postgress{
+    background-image: url('../../../assets/img/logo/Freamworks/postgress.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#mongoDB{
+    background-image: url('../../../assets/img/logo/Freamworks/mongo.png');
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#css{
+    background-image: url('../../../assets/img/logo/Freamworks/css.png');
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.imagens{
+    padding-top:4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.apresentacaoLingagem{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    
+}

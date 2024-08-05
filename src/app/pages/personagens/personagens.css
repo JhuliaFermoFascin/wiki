@@ -1,0 +1,341 @@
+header{
+    background-color: #000079;
+    padding: 1%;
+}
+nav{
+    justify-content: space-around;
+    display:flex;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+nav .navegacao{
+    color:#D69554;
+    font-size: 120%;
+    padding-top: 1.5%;
+}
+.diretorio{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+}
+select{
+    display: inline-block;
+    width: 20%;
+    padding:0.5%;
+    font-size: 80%;
+    line-height: 1;
+    border: 1.7px solid #000079;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #000079;
+    appearance: none;
+    transition: border-color 0.3s;
+}
+.pesquisas{
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 30%;
+    padding:0.5%;
+    font-size: 80%;
+    border: 1.7px solid #000079;
+    border-radius: 15px;
+    color: #000079;
+    transition: border-color 0.3s;
+}
+.imgLogo3{
+    width:8rem;
+    transition: transform 0.5s ease;
+}
+body{
+    margin:0px;
+}
+nav a:hover{
+    color:#E6BD94;
+    font-size: 117%;
+    font-weight: 500;
+}
+label{
+    font-family: "Poppins", sans-serif;
+    color:#000079;
+    width: 65%;
+}
+.imgLogo3:hover{
+    transform: rotate(-30deg);
+}
+.principal{
+    padding-left:6%;
+    padding-right: 6%;
+}
+section p:hover{
+    color:#21219c;
+    font-weight: 500;
+}
+.icon{
+    padding-top: 0.3%;
+}
+.personagens{
+    padding-top:4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button{
+    position: relative; 
+    cursor: pointer;
+    background-color: #000079;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 15%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:1.5%;
+}
+button .filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+button:hover .filter{
+    background-color: #3131aa93; 
+    backdrop-filter: blur(10px); 
+}
+button:hover span{
+    visibility: visible;
+    color:rgb(200, 255, 0);
+    z-index:1;
+    position: relative;
+    color: #dfad7c;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+button span{
+    visibility: hidden;
+}
+#Alex{
+    background-image: url('../../../assets/img/npcs/Alex.png');
+    background-size: cover;
+}
+#Elliot{
+    background-image: url('../../../assets/img/npcs/Elliott.png');
+    background-size: cover;
+}
+#Harvey{
+    background-image: url('../../../assets/img/npcs/Harvey.png');
+    background-size: cover;
+}
+#Sam{
+    background-image: url('../../../assets/img/npcs/Sam.png');
+    background-size: cover;
+}
+#Sebastian{
+    background-image: url('../../../assets/img/npcs/Sebastian.png');
+    background-size: cover;
+}
+#Shane{
+    background-image: url('../../../assets/img/npcs/Shane.png');
+    background-size: cover;
+}
+#Abigail{
+    background-image: url('../../../assets/img/npcs/Abigail.png');
+    background-size: cover;
+}
+#Emily{
+    background-image: url('../../../assets/img/npcs/Emily.png');
+    background-size: cover;
+}
+#Haley{
+    background-image: url('../../../assets/img/npcs/Haley.png');
+    background-size: cover;
+}
+#Leah{
+    background-image: url('../../../assets/img/npcs/Leah.png');
+    background-size: cover;
+}
+#Maru{
+    background-image: url('../../../assets/img/npcs/Maru.png');
+    background-size: cover;
+}
+#Penny{
+    background-image: url('../../../assets/img/npcs/Penny.png');
+    background-size: cover;
+}
+#Anao{
+    background-image: url('../../../assets/img/npcs/Dwarf.png');
+    background-size: cover;
+}
+#Caroline{
+    background-image: url('../../../assets/img/npcs/Caroline.png');
+    background-size: cover;
+}
+#Clint{
+    background-image: url('../../../assets/img/npcs/Clint.png');
+    background-size: cover;
+}
+#Demetrius{
+    background-image: url('../../../assets/img/npcs/Demetrius.png');
+    background-size: cover;
+}
+#Evelyn{
+    background-image: url('../../../assets/img/npcs/Evelyn.png');
+    background-size: cover;
+}
+#Feiticeiro{
+    background-image: url('../../../assets/img/npcs/Wizard.png');
+    background-size: cover;
+}
+#George{
+    background-image: url('../../../assets/img/npcs/George.png');
+    background-size: cover;
+}
+#Gus{
+    background-image: url('../../../assets/img/npcs/Gus.png');
+    background-size: cover;
+}
+#Jas{
+    background-image: url('../../../assets/img/npcs/Jas.png');
+    background-size: cover;
+}
+#Kent{
+    background-image: url('../../../assets/img/npcs/Kent.png');
+    background-size: cover;
+}
+#Krobus{
+    background-image: url('../../../assets/img/npcs/Krobus.png');
+    background-size: cover;
+}
+#Leo{
+    background-image: url('../../../assets/img/npcs/Leo.png');
+    background-size: cover;
+}
+#Lewis{
+    background-image: url('../../../assets/img/npcs/Lewis.png');
+    background-size: cover;
+}
+#Linus{
+    background-image: url('../../../assets/img/npcs/Linus.png');
+    background-size: cover;
+}
+#Marnie{
+    background-image: url('../../../assets/img/npcs/Marnie.png');
+    background-size: cover;
+}
+#Pam{
+    background-image: url('../../../assets/img/npcs/Pam.png');
+    background-size: cover;
+}
+#Pierre{
+    background-image: url('../../../assets/img/npcs/Pierre.png');
+    background-size: cover;
+}
+#Robin{
+    background-image: url('../../../assets/img/npcs/Robin.png');
+    background-size: cover;
+}
+#Sandy{
+    background-image: url('../../../assets/img/npcs/Sandy.png');
+    background-size: cover;
+}
+#Vincent{
+    background-image: url('../../../assets/img/npcs/Vincent.png');
+    background-size: cover;
+}
+#Willy{
+    background-image: url('../../../assets/img/npcs/Willy.png');
+    background-size: cover;
+}
+#Ajudante{
+    background-image: url('../../../assets/img/npcs/Henchman_Portrait_1.png');
+    background-size: cover;
+}
+#Avo{
+    background-image: url('../../../assets/img/npcs/Grandpa.png');
+    background-size: cover;
+}
+#Passarinha{
+    background-image: url('../../../assets/img/npcs/Birdie.png');
+    background-size: cover;
+}
+#Gil{
+    background-image: url('../../../assets/img/npcs/Gil.png');
+    background-size: cover;
+}
+#Governador{
+    background-image: url('../../../assets/img/npcs/Governor.png');
+    background-size: cover;
+}
+#Gunther{
+    background-image: url('../../../assets/img/npcs/Gunther.png');
+    background-size: cover;
+}
+#Marlon{
+    background-image: url('../../../assets/img/npcs/Marlon.png');
+    background-size: cover;
+}
+#Morris{
+    background-image: url('../../../assets/img/npcs/Morris.png');
+    background-size: cover;
+}
+#ProfessorCaracol{
+    background-image: url('../../../assets/img/npcs/Professor_Snail.png');
+    background-size: cover;
+}
+#Seguranca{
+    background-image: url('../../../assets/img/npcs/Bouncer.png');
+    background-size: cover;
+}
+#SrQi{
+    background-image: url('../../../assets/img/npcs/Mr._Qi.png');
+    background-size: cover;
+}
+
+footer{
+    padding: 5%;
+    background-color: #000079;
+    text-align: center;
+}
+footer a{
+    color:#D69554;
+    font-size: 110%;
+    margin:0px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 95%;
+    color:#D69554;
+    padding-top:0px;
+    font-family: "Poppins", sans-serif;
+}
+footer p a{
+    font-size: 97%;
+}
+footer a:hover{
+    color:#E6BD94;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    button{
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width: 750px) {
+    button{
+        width: 10rem;
+        height: 10rem;
+    }
+}
